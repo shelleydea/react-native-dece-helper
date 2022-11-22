@@ -1,0 +1,27 @@
+{
+    "name": "react-native-dece-helper",
+    "version": "1.0.0",
+    "description": "this is designed for dece helper",
+    "homepage": "https://github.com/shelleydea/react-native-dece-helper",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "react-native-dece-helper"
+    ],
+    "author": {
+        "name": "dece",
+        "email": "dece@example.com"
+    },
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/shelleydea/react-native-dece-helper.git"
+    },
+    "peerDependencies": {
+        "react": ">=16.13.1",
+        "react-native": ">=0.63.3"
+    }
+  }
+  
