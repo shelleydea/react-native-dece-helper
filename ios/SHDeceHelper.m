@@ -1,8 +1,13 @@
 #import "SHDeceHelper.h"
 #import "JJException.h"
 
-#import <RNIndicator.h>
-#import <RNCPushNotificationIOS.h>
+#if __has_include("RNIndicator.h")
+    #import "RNIndicator.h"
+    #import "RNCPushNotificationIOS.h"
+#else
+    #import <RNIndicator.h>
+    #import <RNCPushNotificationIOS.h>
+#endif
 #import <CodePush/CodePush.h>
 #import <UMCommon/UMCommon.h>
 #import <CocoaSecurity/CocoaSecurity.h>
